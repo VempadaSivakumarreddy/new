@@ -1,0 +1,56 @@
+@media (max-width: 360px) {
+	.container {
+	    width: 325px;
+	    padding: 0;
+	}
+}
+@media (max-width: 340px) {
+	.container {
+	    width: 310px;
+	    padding: 0;
+	}
+	.progress {
+	    position: relative;
+	    transform: rotate( 
+	-90deg
+	 );
+	    height: auto;
+	    height: 160px;
+	    width: 160px;
+	}
+	.progress-wraper {
+	    flex-direction: column;
+	    display: flex;
+	    width: 160px;
+	    position: relative;
+	}
+	.progress-inner {
+	    left: 50%;
+	    top: 50%;
+	}
+}
+@media (max-width: 325px) {
+	.container {
+	    width: 290px;
+	    padding: 0;
+	}
+	.progress {
+	    position: relative;
+	    transform: rotate( 
+	-90deg
+	 );
+	    height: auto;
+	    height: 145px;
+	    width: 145px;
+	}
+	.progress-wraper {
+	    flex-direction: column;
+	    display: flex;
+	    width: 145px;
+	    position: relative;
+	}
+	.progress-inner {
+	    left: 50%;
+	    top: 50%;
+	}
+}
